@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppDeGatos</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Jacquard+12+Charted&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Jacquard+12+Charted&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <main>
+      <h2 id="titulo-app-gatos">AppDeGatos</h2>
+     <!-- TODO: Agregar enlace a imágenes de gatos -->
+     <h3>Imágens de gatos:</h3>
+     <p>Haz clic para ver más <a href="#">imágenes de Gatos.</a> 
+     <a href=""><img src="https://bit.ly/fcc-relaxing-cat" class="imagen-de-gato" alt="Un lindo gato naranja recostado sobre su espalda"></a>
+    
+     <hr>
+    
+     <h3>Listado de Gatos</h3>
+     
+    <div class="contenedor-listas"> 
+
+      <p>Cosas que los gatos <em>aman</em></p>
+
+      <ul id="lista-gatos-aman"> 
+        <li>Mentas gatunas</li>
+        <li>Apuntadores</li>
+        <li><s>Lasaña</s></li>
+      </ul>
+        <img src="lasana.jpg" alt="Lasaña">
+
+      <p>Cosas que los gatos <strong>odian</strong></p>
+      <ol id="lista-gatos-odian">
+       <li>Tratamiento antipulga</li>
+       <li>Truenos</li>
+       <li>Otros gatos</li>
+     </ol>
+   </div>
+   <img src="gatos.jpg" alt="gatos">
+
+   <form action="/enviar-respuesta">
+    <label for="interior"><input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior</label> 
+    <br>
+    
+    
+    <label for="exterior"><input id="exterior" type="radio" value="exterior" name="interior-Exterior">Exterior</label>
+
+<br>
+<label form="Carinoso"><input id="Carinoso" type="checkbox" name="personalidad" checked>Cariñoso</label> <br>
+<label form="Perezoso"><input id="Perezoso" type="checkbox" name="personalidad">Perezoso</label> <br>
+<label form="Enérgico"><input id="Enérgico" type="checkbox" name="personalidad">Enérgico</label> <br>
+
+
+   <input type="text" placeholder="URL de la foto de tu gato" required> <br>
+
+   <button type="submit">Enviar</button>
+   </form>
+
+    </main>
+    <footer>
+        <P><small>Sin derechos de autor - <a href="https://www.google.com/search?q=imagen+de+gatos&oq=&gs_lcrp=EgZjaHJvbWUqCQgAEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkxNTg3ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#vhid=xC_CUeCMeIWfdM&vssid=l">imagendegatos.com</a></small></P>
+
+    </footer>
+</body>
+</html>

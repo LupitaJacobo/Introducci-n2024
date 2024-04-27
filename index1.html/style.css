@@ -1,0 +1,79 @@
+h2 {
+	font-family: "Jacquard 12 Charted", system-ui, cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+	font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imagen-de-gato {
+	width: 200;
+	border-width: 5px;
+	border-color: blue;
+	border-style: solid dashed dotted double;
+}
+
+.imagen-de-gato {
+	border-radius: 50px;
+}
+
+.contenedor-listas {
+background-color: silver;
+}
+
+#titulo-app-gatos {
+	font-size: 30px;
+	color: green;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lista-gatos-aman {
+	font-size: 15px;
+	color: blueviolet;
+}
+
+#lista-gatos-odian {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+	background-color: crimson;
+}
+
+img {
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-color: yellow;
+	background-width: 2px;
+	border-color: black;
+}
+
+img[alt] {
+	border-radius: 50%;
+}
+
+input[type="radio"] {
+	margin: 5px;
+}
+
+input[type="checkbox"] {
+	margin: 8px;
+}
+
+a[href="https://www.google.com/search?q=imagen+de+gatos&oq=&gs_lcrp=EgZjaHJvbWUqCQgAEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkxNTg3ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#vhid=xC_CUeCMeIWfdM&vssid=l"] {
+	color: green;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+body {
+	background-color: rgb(52, 134, 52);
+}
+
